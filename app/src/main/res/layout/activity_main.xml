@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/TE1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:background="#E38C8C"
+            android:text="@string/edittext"
+            android:textColor="#FFFFFF"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            android:inputType="numberDecimal"
+            tools:ignore="LabelFor" />
+
+        <EditText
+            android:id="@+id/TE2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:background="#E39795"
+            android:text="@string/_0"
+            android:textColor="#FFFFFF"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            tools:ignore="LabelFor"
+            />
+
+        <TextView
+            android:id="@+id/TV1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#513535"
+            android:gravity="end"
+            android:padding="10dp"
+            android:text="@string/_0"
+            android:textColor="#FFFFFF"
+            android:ems="10"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/BC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#302323"
+            android:text="@string/clear"
+            android:textSize="25sp"
+            android:textColor="#FFFFFF"
+            tools:ignore="ButtonStyle"/>
+
+        <Button
+            android:id="@+id/BA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#331D1D"
+            android:text="@string/addition"
+            android:textSize="25sp"
+            android:textColor="#FFFFFF"
+            tools:ignore="ButtonStyle"/>
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/BS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#302323"
+            android:text="@string/subtraction"
+            android:textSize="25sp"
+            android:textColor="#FFFFFF"
+            tools:ignore="ButtonStyle"/>
+
+        <Button
+            android:id="@+id/BP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#331D1D"
+            android:text="@string/power"
+            android:textSize="25sp"
+            android:textColor="#FFFFFF"
+            tools:ignore="ButtonStyle"/>
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/BM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#302323"
+            android:text="@string/multiplication"
+            android:textSize="25sp"
+            android:textColor="#FFFFFF"
+            tools:ignore="ButtonStyle"/>
+
+        <Button
+            android:id="@+id/BD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#331D1D"
+            android:text="@string/division"
+            android:textSize="25sp"
+            android:textColor="#FFFFFF"
+            tools:ignore="ButtonStyle"/>
+
+
+
+
+    </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#4C3B3B"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/developer_info"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/info2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#4C3B3B"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/laxmankoirala_gmail_com"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>

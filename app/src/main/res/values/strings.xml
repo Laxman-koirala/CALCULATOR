@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">CALCULATOR!!</string>
+    <string name="_0">0</string>
+    <string name="edittext">0</string>
+    <string name="division">DIVISION</string>
+    <string name="multiplication">MULTIPLICATION</string>
+    <string name="power">POWER</string>
+    <string name="subtraction">SUBTRACTION</string>
+    <string name="addition">Addition</string>
+    <string name="clear">Clear</string>
+    <string name="result">0</string>
+    <string name="textview">text</string>
+    <string name="developer_info">developer_info</string>
+    <string name="laxmankoirala_gmail_com">laxmankoirala_gmail_com</string>
+</resources>
